@@ -1,0 +1,206 @@
+body {
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+.brand {
+  font-size: 15px;
+}
+
+.brand small,
+.sidebar-label,
+.breadcrumbs,
+.footer {
+  font-size: 10px;
+}
+
+.nav-link {
+  font-size: 13px;
+}
+
+.track-nav-link,
+.track-card p,
+.welcome-copy,
+.page-title p,
+.daily-card p,
+.settings-about p {
+  font-size: 12px;
+}
+
+.sidebar-label,
+.brand small,
+.unit-header,
+.reference-label,
+.write-label,
+.footer,
+.track-kicker {
+  letter-spacing: 0.1em;
+}
+
+.unit-title {
+  gap: 10px;
+}
+
+.unit-title > span {
+  flex: 0 0 28px;
+}
+
+.unit-title b {
+  line-height: 1.4;
+}
+
+.unit-title small {
+  margin-left: auto;
+}
+
+.lesson-row-text b,
+.daily-card b,
+.profile-mini b,
+.aside-card b,
+.practice-mode b {
+  font-size: 12px;
+}
+
+.lesson-row-text small,
+.lesson-time,
+.track-percent,
+.profile-mini small,
+.aside-card small {
+  font-size: 10px;
+}
+
+.lesson-paragraph,
+.example-box p,
+.rule-box p,
+.text-reference p,
+.exam-instructions,
+.exam-source p,
+.exam-rubric,
+.written-summary small {
+  font-size: 13px;
+  line-height: 1.65;
+}
+
+.practice-question h3,
+.exam-question {
+  font-size: 17px;
+  line-height: 1.55;
+}
+
+.answer-option,
+.mark-done,
+.primary-btn,
+.button-quiet,
+.shuffle-btn,
+.upload-button,
+.ocr-button,
+.practice-actions span,
+.exam-meta,
+.essay-prompts button {
+  font-size: 12px;
+}
+
+.practice-mode small,
+.text-reference small,
+.upload-card p,
+.tip-card p,
+.answer-feedback,
+.result-tip,
+.exam-rubric small,
+.review-row small,
+.review-row em {
+  font-size: 11px;
+  line-height: 1.55;
+}
+
+.reference-label,
+.write-label,
+.upload-note,
+.exam-progress-row,
+.exam-rubric b,
+.exam-rubric label,
+.setting-field,
+.setting-row b,
+.reset-button,
+.fipi-links a {
+  font-size: 11px;
+}
+
+.text-reference p,
+.lesson-paragraph,
+.example-box p,
+.rule-box p,
+.review-row em {
+  color: var(--text);
+}
+
+.track-kicker,
+.unit-header {
+  font-size: 9px;
+}
+
+.eyebrow {
+  font-size: 10px;
+}
+
+.track-card h3,
+.section-title h2,
+.lesson-detail-head h2,
+.work-top h2,
+.exam-content h2,
+.settings-card h2 {
+  font-size: 16px;
+}
+
+.stat-card small {
+  font-size: 9px;
+  letter-spacing: 0.1em;
+}
+
+.stat-card b {
+  font-size: 19px;
+  line-height: 1.2;
+}
+
+.stat-card small,
+.track-card .track-kicker,
+.lesson-number,
+.upload-note,
+.exam-time,
+.exam-rubric small {
+  color: var(--muted);
+}
+
+.lesson-row,
+.answer-option,
+.primary-btn,
+.tab,
+.practice-mode,
+.topic-lab-controls select,
+.setting-field input,
+.write-label textarea {
+  min-height: 42px;
+}
+
+.write-label textarea {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+@media (max-width: 560px) {
+  body {
+    font-size: 13px;
+  }
+
+  .track-nav-link,
+  .track-card p,
+  .welcome-copy,
+  .page-title p,
+  .lesson-row-text b,
+  .lesson-paragraph,
+  .text-reference p,
+  .exam-question,
+  .write-label textarea {
+    font-size: 12px;
+  }
+}

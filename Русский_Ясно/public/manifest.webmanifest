@@ -1,0 +1,21 @@
+{
+  "id": "./",
+  "name": "Русский Ясно — подготовка к ОГЭ и ЕГЭ",
+  "short_name": "Русский Ясно",
+  "description": "100 уроков, диктанты, орфографические тренажёры и авторские варианты для ОГЭ и ЕГЭ.",
+  "lang": "ru",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#101018",
+  "theme_color": "#101018",
+  "icons": [
+    {
+      "src": "icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
