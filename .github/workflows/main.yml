@@ -43,7 +43,7 @@ jobs:
       - name: Upload built site
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./Русский Ясно/dist
+          path: ./Русский_Ясно/dist
 
       - name: Deploy site
         id: deployment
