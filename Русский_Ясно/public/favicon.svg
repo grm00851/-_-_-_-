@@ -1,12 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
   <defs>
-    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#c8b7ff"/>
-      <stop offset="1" stop-color="#8c74df"/>
-    </linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#14263e"/><stop offset="1" stop-color="#091321"/></linearGradient>
+    <linearGradient id="mark" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ff9179"/><stop offset="1" stop-color="#ff4f68"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="12" stdDeviation="10" flood-color="#020712" flood-opacity=".35"/></filter>
   </defs>
-  <rect width="64" height="64" rx="19" fill="#171522"/>
-  <path d="M19 15h29v7H27v8h15v7H27v12h-8V15z" fill="url(#paper)"/>
-  <path d="M35 30h13v19h-8V37h-5z" fill="#a58cf2"/>
-  <circle cx="50" cy="49" r="3" fill="#8fe1c2"/>
+  <rect x="16" y="16" width="480" height="480" rx="118" fill="url(#bg)"/>
+  <circle cx="390" cy="116" r="62" fill="#263b55" opacity=".55"/>
+  <path d="M108 366c41 44 91 67 150 67 57 0 105-21 146-63" fill="none" stroke="#65d7cb" stroke-width="12" stroke-linecap="round"/>
+  <g filter="url(#shadow)"><text x="256" y="337" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="286" font-weight="700" fill="url(#mark)">Я</text></g>
+  <circle cx="383" cy="368" r="19" fill="#ffd166"/>
 </svg>
