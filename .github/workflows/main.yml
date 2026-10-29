@@ -48,3 +48,5 @@ jobs:
       - name: Deploy site
         id: deployment
         uses: actions/deploy-pages@v4
+
+# Rebuild Pages with the current repository path after rename.
