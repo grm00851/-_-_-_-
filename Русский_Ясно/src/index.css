@@ -16,3 +16,7 @@ button { cursor: pointer; }
 button:focus-visible, input:focus-visible, a:focus-visible { outline: 3px solid #957cff; outline-offset: 3px; }
 button:disabled { cursor: not-allowed; opacity: .54; }
 ::selection { background: #dcd4ff; color: #241b4f; }
+
+html { color-scheme: light dark; }
+:root[data-theme="light"] { color-scheme: light; }
+:root:not([data-theme="light"]) { color-scheme: dark; }
